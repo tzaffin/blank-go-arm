@@ -1,6 +1,8 @@
 # Blank function (Go)
 
-![Architecture](/sample-apps/blank-go/images/sample-blank-go.png)
+This is a fork of [blank-go](https://github.dev/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-go) from AWS.
+
+![Architecture](images/sample-blank-go.png)
 
 The project source includes function code and supporting resources:
 
@@ -59,11 +61,11 @@ Let the script invoke the function a few times and then press `CRTL+C` to exit.
 
 The application uses AWS X-Ray to trace requests. Open the [X-Ray console](https://console.aws.amazon.com/xray/home#/service-map) to view the service map.
 
-![Service Map](/sample-apps/blank-go/images/blank-go-servicemap.png)
+![Service Map](images/blank-go-servicemap.png)
 
 Choose a node in the main function graph. Then choose **View traces** to see a list of traces. Choose any trace to view a timeline that breaks down the work done by the function.
 
-![Trace](/sample-apps/blank-go/images/blank-go-trace.png)
+![Trace](images/blank-go-trace.png)
 
 # Cleanup
 To delete the application, run `4-cleanup.sh`.
