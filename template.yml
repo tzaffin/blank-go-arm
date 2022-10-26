@@ -5,9 +5,10 @@ Resources:
   function:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: main
-      Runtime: go1.x
+      Handler: bootstrap
+      Runtime: provided.al2
       CodeUri: function/.
+      Architectures: ['arm64']
       Description: Call the AWS Lambda API
       Timeout: 5
       # Function's execution role
