@@ -1,4 +1,7 @@
+
 # Blank function (Go)
+
+> For a detailed step-by-step guide on how to set this up, check out this [blog post](https://tech.autoscout24.com/blog/posts/go-lambda-on-arm/).
 
 This is a fork of [blank-go](https://github.dev/awsdocs/aws-lambda-developer-guide/tree/main/sample-apps/blank-go) from AWS.
 
